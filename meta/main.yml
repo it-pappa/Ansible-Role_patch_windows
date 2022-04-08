@@ -1,0 +1,17 @@
+---
+galaxy_info:
+  role_name: patch_windows
+  author: Dan Eckholm
+  description: Patch Windows hosts
+  license: BSD-3-Clause
+  min_ansible_version: 2.11
+  platforms:
+    - name: EL
+      versions:
+        - 8
+  galaxy_tags:
+    - linux
+    - patch
+
+
+dependencies: []
