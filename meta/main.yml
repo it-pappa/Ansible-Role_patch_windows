@@ -6,13 +6,16 @@ galaxy_info:
   license: BSD-3-Clause
   min_ansible_version: 2.11
   platforms:
-    - name: Windows
-    - name: Microsoft
+    - name: Windows Server
       versions:
-        - 8
+        - 2016
+        - 2019
+    - name: Windows
+      versions:
+        - 10
   galaxy_tags:
-    - linux
-    - patch
-
-
-dependencies: []
+    - Microsoft
+    - Windows
+    - Server
+    - winrm
+    
